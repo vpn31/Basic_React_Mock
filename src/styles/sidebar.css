@@ -1,0 +1,92 @@
+.sidebar {
+    position: fixed;
+    top:75px;
+    margin-left: -300px;
+    width:300px;
+    height:100%;
+    background-color: #f5f5f5;
+    transform: translateX(100%);
+    transition: all 0.5s ease;
+}
+
+.active {
+    transform: translateX(-100%);
+}
+
+.App-header {
+    background-color: #f5f5f5;
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+#list{
+    margin-top:-800px;
+}
+
+#item {
+    padding: 10px;
+}
+
+#para{
+    margin-bottom: -10px;
+}
+
+section{
+    padding:15px;
+}
+
+main{
+    margin: 0px 500px 0px 500px;
+}
+
+#head{
+    margin: auto;
+    margin-top: 20px;
+    width:50%;
+    box-shadow: 0 2px 4px  black;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+
+.about{
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:50%;
+    box-shadow: 0 2px 4px  black;
+}
+
+#intro{
+    margin-bottom: -10px;
+}
+
+.teamDetails{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#info {
+    margin: 0px 500px 0px 500px;
+    background-color: #f5f5f5;
+    border-style: ridge;
+}
+
+#intro-list {
+    list-style-type: none;
+    margin-left: -50px;
+}
+
