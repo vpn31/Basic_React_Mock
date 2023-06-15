@@ -9,6 +9,7 @@ const About =()=>{
         <div className='aboutus'>
             <Navbar sidebar={sidebar} setSidebar={setSidebar}/>
             <Sidebar sidebar={sidebar}/>
+            <div id="body">
             <div className='about'>
             <h2 id="headAbout">About Us</h2>
                 <p>
@@ -21,6 +22,7 @@ const About =()=>{
                     We are a growing company with a strong focus on customer service. We are committed to providing our clients with the highest quality service and support. If you have any questions or need assistance, please do not hesitate to contact us.
                 </p>
                 <a href="/about">Contact Us</a>
+            </div>
             </div>
         </div>
     )

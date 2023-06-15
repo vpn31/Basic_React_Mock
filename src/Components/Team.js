@@ -1,8 +1,9 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
+import axios from 'axios';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 import EmployeeCard from './EmployeeDetails';
-import '../styles/sidebar.css'
+import '../styles/sidebar.css';
 
 var data = [
     {
@@ -54,6 +55,7 @@ var data = [
 
 const Team =()=>{
     const [sidebar,setSidebar]=useState(false);
+
     return(
         <div className='team'>
             <Navbar sidebar={sidebar} setSidebar={setSidebar}/>
